@@ -1,0 +1,54 @@
+.container {
+  padding: 20px;
+}
+
+.goBackButton {
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.movieTitle {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.poster {
+  max-width: 300px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.overview {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+.additionalInfo {
+  margin-top: 20px;
+}
+
+.additionalList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.additionalLink {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.additionalLink:hover {
+  color: #0056b3;
+}
